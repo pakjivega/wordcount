@@ -1,0 +1,4 @@
+This is a text file to test the hadoop map reduce framework.
+This file will be used to count the different words within.
+Another file will be included also in the project.
+
