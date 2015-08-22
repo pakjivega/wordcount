@@ -13,7 +13,6 @@ public class WordCountReducer extends Reducer<Text, IntWritable, Text, IntWritab
 			throws IOException, InterruptedException {
 		int sum = 0;
 		for (IntWritable val : values) {
-			System.out.println("Reducing: " + key.toString() + " values: " + val);
 			sum += val.get();
 		}
 		result.set(sum);
